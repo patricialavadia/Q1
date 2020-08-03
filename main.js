@@ -25,5 +25,6 @@ function submitForm(){
 	else{
 		h1.appendChild(document.createTextNode('Hello, ' + firstname.value + " " + lastname.value));
 		main.appendChild(h1);
+		document.body.style.backgroundColor = favcolor.value;
 	}
 }
